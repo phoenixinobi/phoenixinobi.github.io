@@ -329,5 +329,6 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-# Jekyll site folder
-._site/
+# Jekyll compilation folders
+_site/
+jekyll-cache/
