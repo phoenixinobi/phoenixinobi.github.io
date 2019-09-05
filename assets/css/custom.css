@@ -1,0 +1,33 @@
+.navbar-default.navbar-dark {
+    background-color: #808080;
+}
+
+.navbar-brand.navbar-logo > img {
+    position: relative;
+    margin-top: -50px;
+    width: 80px;
+}
+
+.navbar-fixed-top.shrink-active .navbar-brand > img {
+    position: relative;
+    margin-top: -10px;
+    width: 40px;
+}
+
+/* Small Device */
+@media only screen and (max-width: 1023px) {
+    .topbar {
+        text-align: right;
+    }
+    .navbar-brand.navbar-logo > img {
+        position: relative;
+        width: 80px;
+    }
+    
+    .navbar-fixed-top.shrink-active .navbar-brand > img {
+        width: 40px;
+    }
+    .navbar-right {
+        margin-top: 0px;
+    }
+}

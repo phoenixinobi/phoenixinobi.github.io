@@ -10,7 +10,8 @@
 	<!-- CSS -->
 	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
 
 	<!-- IE 9 Fallback-->
 	<!--[if IE 9]>
@@ -27,6 +28,7 @@
 	<div class="wrapper">
         {% include navbar.html %}
         {{ content }}
+        {% include footer.html %}
 		<div class="back-to-top">
 			<a href="#top"><i class="fa fa-chevron-up"></i></a>
 		</div>
