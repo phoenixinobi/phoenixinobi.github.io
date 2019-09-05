@@ -331,4 +331,4 @@ ASALocalRun/
 
 # Jekyll compilation folders
 _site/
-jekyll-cache/
+.jekyll-cache/
