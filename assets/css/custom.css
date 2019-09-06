@@ -1,5 +1,10 @@
 .navbar-default.navbar-dark {
     background-color: #808080;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
+}
+
+body {
+    background-color: #808080;
 }
 
 .navbar-brand.navbar-logo > img {
